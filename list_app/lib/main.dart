@@ -27,7 +27,7 @@ class ListExamplePage extends StatelessWidget {
     var dividedWidgetList = ListTile.divideTiles(
       context: context,
       tiles: _getListData(),
-      color: Colors.black
+      color: Colors.red
     ).toList();
 
     return Scaffold(
